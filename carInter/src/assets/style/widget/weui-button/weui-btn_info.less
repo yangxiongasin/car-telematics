@@ -1,0 +1,12 @@
+@import "../../base/fn.less";
+
+.weui-btn_info {
+    .bg-gradient(@weuiColorInfo,-45deg,@weuiColorInfoGradient1,@weuiColorInfoGradient2);
+    &:not(.weui-btn_disabled):visited {
+        color: @weuiBtnFontColor;
+    }
+    &:not(.weui-btn_disabled):active {
+        color: @weuiBtnActiveFontColor;
+        background-color: @weuiColorInfoGradient2;
+    }
+}

@@ -1,0 +1,634 @@
+// 监控主页样式
+.monitor {
+  color: #2D3E53;
+  .weui-swipe {
+    height: 9.06rem;
+  }
+  .weui-swipe-item {
+    & > img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .slide1 {
+    color: #fff;
+    background-color: #0089dc;
+  }
+
+  .drivingBehavior {
+    //height: 8.75rem;
+    padding: 0.63rem 0rem 0 0.94rem;
+    color: #fff;
+    background-image: linear-gradient(-225deg, #9185FF 0%, #6392FF 100%);
+    .details {
+      padding-bottom: 0.94rem;
+      padding-left: 0.94rem;
+      ul {
+        width: 11rem;
+        li {
+          font-size: 0.75rem;
+          line-height: 1.38rem;
+          float: left;
+          width: 4.5rem;
+          margin-right: 1rem;
+        }
+      }
+      .circularDiagram {
+        position: relative;
+        width: 6rem;
+        height: 6rem;
+        margin-right: 3.13rem;
+        .scores {
+          position: absolute;
+          top: 0rem;
+          left: 0rem;
+          width: 5rem;
+          height: 5rem;
+        }
+      }
+    }
+    .no_drivingBehavior {
+      padding: 0.63rem 0 1.31rem 0;
+    }
+  }
+
+
+  .equiInforDisplay {
+    width: 100%;
+    height: 9.06rem;
+    .equiImg {
+      width: 6.25rem;
+      height: 6.25rem;
+      margin-right: 1.25rem;
+      margin-left: 1.88rem;
+      border-radius: 50%;
+      background: #ffffff;
+      & > img {
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .bg_online {
+    background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#9185FF), to(#6392FF));
+  }
+  .bg_offline {
+    background-image: linear-gradient(-45deg, #CE9DA3 0%, #B6607D 100%);
+  }
+
+  .monitorFunc_lg {
+    margin: 0.31rem;
+    & > a,
+    & > div {
+      width: 11.25rem;
+      height: 11.25rem;
+      margin-bottom: 0.31rem;
+      border: 0.06rem solid rgba(123,147,167,0.18);
+      .monitorFunc_icon {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        & > i {
+          font-size: 2.75rem;
+        }
+      }
+      .monitorFunc_name {
+        font-size: 0.75rem;
+        padding-top: 0.75rem;
+      }
+    }
+  }
+
+  .greyStatu {
+    .monitorFunc_icon {
+      background: #eee;
+      & > i {
+        color: #999;
+      }
+    }
+    .monitorFunc_name {
+      color: #999;
+    }
+  }
+  .monitorFunc_sm {
+    margin: 0.31rem;
+    & > a,
+    & > div {
+      width: 7.38rem;
+      height: 7.38rem;
+      margin-bottom: 0.31rem;
+      border: 0.06rem solid rgba(123,147,167,0.18);
+      .monitorFunc_icon {
+        width: 3.5rem;
+        height: 3.5rem;
+        border-radius: 50%;
+        & > i {
+          font-size: 1.93rem;
+        }
+      }
+      .monitorFunc_name {
+        font-size: 0.75rem;
+        padding-top: 0.5rem;
+      }
+    }
+  }
+
+  .monitorFunc {
+    margin: 0.76rem 0.94rem 0.63rem 0.94rem;
+    & > a {
+      width: 5rem;
+      height: 5rem;
+      .monitorFunc_icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        & > i {
+          font-size: 1.38rem;
+        }
+      }
+      .monitorFunc_name {
+        font-size: 0.75rem;
+        padding-top: 0.63rem;
+      }
+    }
+  }
+
+  .latelyPhoto {
+    padding-bottom: 1.25rem;
+    .latelyPhoto_title {
+      height: 2.75rem;
+      padding: 0 0.44rem 0 0.94rem;
+      .latelyPhoto_title_icon {
+        width: 1.75rem;
+        height: 1.75rem;
+        color: #C7C7CC;
+      }
+    }
+    .latelyPhoto_cont_img {
+      display: block;
+      position: relative;
+      width: 7.69rem;
+      height: 7.69rem;
+      margin-right: 0.12rem;
+      .videoModel {
+        font-size: 2rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        & > i {
+          color: white;
+        }
+      }
+      & > img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .no-media {
+      height: 7.38rem;
+      margin: 0 1.75rem 0 1.69rem;
+      border: 1px dashed rgba(123,147,167,0.18);
+      background: rgba(250,253,253,1);
+      i {
+        font-size: 2.9rem;
+        margin-bottom: 0.3rem;
+        color: #6392FF;
+      }
+      span {
+        color: rgba(123,147,167,0.70);
+      }
+    }
+  }
+
+  .weui-icon-ai-camera,
+  .weui-icon-ai-car-connected {
+    color: #6392FF;
+  }
+  .weui-icon-ai-video {
+    color: #40A2DB;
+  }
+  .weui-icon-ai-near-me {
+    color: #46CF8F;
+  }
+  .weui-icon-ai-planet {
+    color: #FF63B4;
+  }
+  .weui-icon-ai-magnify {
+    color: #73E03D;
+  }
+  .weui-icon-ai-wrench {
+    color: #FF9054;
+  }
+  .weui-icon-ai-share-variant {
+    color: #BD56F8;
+  }
+  .weui-icon-ai-headset {
+    color: #A4DD51;
+  }
+  .weui-icon-ai-traffic-query {
+    color: #FF60B4;
+  }
+
+  .bg_photo {
+    background: rgba(136,120,255,0.10);
+  }
+  .bg_vedio {
+    background: rgba(26,213,220,0.10);
+  }
+  .bg_loca {
+    background: rgba(119,208,66,0.10);
+  }
+  .bg_car {
+    background: rgba(255,95,95,0.10);
+  }
+  .bg_one {
+    background: rgba(23,167,251,0.10);
+  }
+  .bg_two {
+    background: rgba(119,208,66,0.10);
+  }
+  .bg_three {
+    background: rgba(255,166,51,0.10);
+  }
+  .bg_four {
+    background: rgba(136,120,255,0.10);
+  }
+  .bg_five {
+    background: rgba(255,95,95,0.10);
+  }
+  .bg_wechatService {
+    background: rgba(119,208,66,0.10);
+  }
+  .weui-icon-ai-chevron-right:before {
+    font-size: 1.7rem;
+  }
+}
+// 照片与视频详情
+.mediaDetails {
+  .im_top {
+    width: 100%;
+    height: 13.04rem;
+    background: #dfdfdf;
+    position: relative;
+    & > video {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .video_top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    font-size: 3rem;
+    color: #fff;
+    & > img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+    }
+    & > i {
+      z-index: 1;
+    }
+  }
+  .im_message {
+    padding: 1.4rem 1.38rem 0 1.31rem;
+    .im_time_icon {
+      align-items: flex-end;
+      .im_icon {
+        font-size: 1.18rem;
+        line-height: 1.25rem;
+        color: #9185FF;
+      }
+    }
+  }
+  .im_address {
+    .im_dingwei {
+      width: 3rem;
+      height: 2rem;
+      & > i {
+        font-size: 1.13rem;
+        color: #7B93A7;
+      }
+    }
+    .im_icon {
+      padding-top: 0.4rem;
+    }
+    .im_addr {
+      padding-left: 0.44rem;
+      .im_icon_up_down {
+        display: inline-block;
+        font-size: 1.75rem;
+        width: 1.75rem;
+        height: 1.75rem;
+        color: #c7c7cc;
+      }
+    }
+  }
+  .im_map {
+    width: 100%;
+    height: 14.31rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    & > img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+// 照片库与视频库
+.mediaGallery {
+  padding-top: 0.69rem;
+  .pg_time {
+    height: 2.75rem;
+    padding-left: 0.94rem;
+  }
+  .pg_time_img {
+    justify-content: flex-start;
+    .latelyPhoto_cont_img {
+      position: relative;
+      width: 7.69rem;
+      height: 7.69rem;
+      margin-right: 0.19rem;
+      margin-bottom: 0.25rem;
+      .pg_img_border {
+        width: 100%;
+        height: 100%;
+      }
+      .videoModel {
+        font-size: 2rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: #ffffff;
+      }
+      .mock_mod {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0);
+        .weui-icon-checked {
+          font-size: 1.13rem;
+          margin-right: 0.31rem;
+          margin-bottom: 0.44rem;
+          border-radius: 50%;
+          background: #ffffff;
+          &:before {
+            margin: 0;
+            border: 1px solid #fff;
+            border-radius: 50%;
+          }
+        }
+        .virtual_circle {
+          position: absolute;
+          right: 0.37rem;
+          bottom: 0.47rem;
+          width: 1.13rem;
+          height: 1.13rem;
+          border: 0.06rem solid rgba(255,255,255,0.5);
+          border-radius: 50%;
+          background: rgba(0,0,0,0.1);
+        }
+      }
+      &:nth-child(3n) {
+        margin-right: 0rem;
+      }
+      & > img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .delete_photo {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    width: 23.44rem ;
+    height: 3.5rem ;
+    background: #f1f4f6;
+    .subDelSty {
+      font-size: 1.56rem;
+      color: #6392FF;
+    }
+  }
+  .del_sure {
+    display: flex;
+    position: absolute;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+
+    align-items: flex-end;
+    .sure_del {
+      font-size: 1rem;
+      color: #FF5F5F;
+    }
+    .cancel_del {
+      font-size: 1.13rem;
+      color: #7B93A7;
+      border-top: none!important;
+    }
+  }
+}
+// 实时定位
+.realLocation {
+  .realLocation_map {
+    margin-bottom: 1rem;
+  }
+  .realLocation_message {
+    padding: 0 1.38rem 0 1.31rem;
+    .realLocation_time_icon {
+      align-items: flex-end;
+      .realLocation_icon {
+        font-size: 1.18rem;
+        line-height: 1.25rem;
+        color: #9185FF;
+      }
+    }
+    .realLocation_address {
+      .realLocation_dingwei {
+        width: 3rem;
+        height: 2rem;
+        & > i {
+          font-size: 1.13rem;
+          color: #7B93A7;
+        }
+      }
+      .realLocation_addr {
+        padding-left: 0.44rem;
+      }
+    }
+  }
+}
+
+// 视频和照片切换
+.mediaReal {
+  .mediaReal_title {
+    margin-top: 0.44rem;
+    padding: 0 5.36rem;
+  }
+  .tabMedia {
+    font-size: 1rem;
+    line-height: 1.75rem;
+    width: 4.5rem;
+    padding-bottom: 0.25rem;
+    color: #7B93A7;
+
+    justify-content: center;
+  }
+  .curSelect {
+    color: #6392FF;
+    border-bottom: 0.13rem solid #6392ff;
+  }
+}
+
+// 实时照片和实时视频
+.realMedia {
+  padding: 1.75rem 0.94rem 0;
+  .realPhotoTitle {
+    padding: 4.43rem 0 6rem 0;
+    .realPhotoTitle_img {
+      // font-size: 5rem;
+      line-height: 0;
+      color: #9185FF;
+      .weui-icon-ai-timer {
+        position: relative;
+        & > span {
+          font-size: 0.2em;
+          font-weight: bold;
+          position: absolute;
+          top: -1.2em;
+          left: 0%;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .titleSize {
+      font-size: 5rem;
+    }
+  }
+  .weui-btn + .weui-btn {
+    margin-top: 0.5rem;
+  }
+}
+// 行车轨迹
+.wheelpath {
+  .yo-scroll {
+    background-color: #fff;
+    .weui-cell:before {
+      border-top: 1px solid transparent!important;
+    }
+  }
+  .wp_head {
+    height: 1.88rem;
+    padding: 0 1.31rem;
+    background: rgba(123,147,167,0.10);
+  }
+  .scoller-content {
+    border-bottom: 0.06rem solid rgba(123,147,167, 0.18);
+  }
+}
+.pathMap {
+  #pathMap,
+  #pathMap_img {
+    position: relative;
+    width: 100%;
+    height: 23.44rem;
+    .pathMap_loading {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(123,147,167,0.10);
+    }
+  }
+  .wp_head {
+    height: 1.88rem;
+    padding: 0 1.31rem;
+  }
+}
+
+
+// 轨迹样式
+.trace-start {
+  position: relative;
+  padding-bottom: 1.3rem;
+  .line-7d {
+    position: absolute;
+    top: 1.6rem;
+    bottom: 0;
+    height: auto !important;
+    margin-left: 0.5rem;
+    border-left: 0.06rem solid #7d8fff;
+  }
+}
+.trace-start,
+.trace-end {
+  .wp_con_start {
+    margin-right: 0 !important;
+  }
+  .trace-icon {
+    padding-right: 0.56rem;
+  }
+}
+// 驾驶得分情况详情
+.drivingBehaviorDetails {
+  padding-top: 2.5rem;
+  .drivingBehaviorDetails_head {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 1.5rem;
+    background: #fff;
+    .tab_drivingBehaviorDetails {
+      padding: 0.38rem 1.16rem;
+    }
+    .curSelect {
+      padding-bottom: 0.25rem;
+      color: #6392ff;
+      border-bottom: 0.13rem solid #6392ff;
+    }
+  }
+  .drivingBehaviorDetails_contain {
+    .wp_head {
+      height: 1.88rem;
+      padding: 0 1.31rem;
+      background: rgba(123,147,167,0.10);
+    }
+    .y_wp_content {
+      width: 18.4rem;
+      padding: 0.63rem 0rem 0.63rem 1.31rem;
+    }
+    .scores {
+      padding: 0 1.31rem 0 0;
+    }
+    .infractions {
+      padding: 0.63rem 0 0.88rem 1.31rem;
+      span {
+        width: 5.56rem;
+        i {
+          font-weight: bold;
+          background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#9185FF), to(#6392FF));
+          -webkit-background-clip: text;
+
+          -webkit-text-fill-color: transparent;
+        }
+      }
+    }
+  }
+}

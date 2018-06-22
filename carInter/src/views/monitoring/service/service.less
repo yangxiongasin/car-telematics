@@ -1,0 +1,210 @@
+// 设备列表
+.installServices {
+  .y_cell {
+    .head_img {
+      background: rgba(136,120,255,0.10);
+      [class*=weui-icon] {
+        font-size: 2.07rem;
+        color: #9185FF;
+      }
+    }
+  }
+}
+// 设备列表详情
+.installServiceDeatils {
+  .isd_content {
+    padding: 0.88rem 0 0.63rem 0.94rem;
+    .weui-flex {
+      padding-bottom: 0.5rem;
+    }
+    .isd_title {
+      width: 4.48rem;
+      padding-right: 0.63rem;
+      text-align: right;
+    }
+    .isd_details {
+      width: 16.73rem;
+    }
+  }
+}
+// 免费安装
+.freeInstall {
+  padding-bottom: 7.2rem!important;
+  .weui-cells {
+    margin-top: 0!important;
+  }
+
+  .btn_submit {
+    position: fixed;
+    z-index: 99;
+    bottom: 3.06rem;
+    left: 0;
+    width: 100%;
+    height: 4.13rem;
+    padding: 0 0.94rem;
+    background: #ffffff;;
+  }
+  .sel_shop {
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 46rem;
+    background: #ffffff;
+    .sel_shop_content {
+      padding: 0.63rem 0.63rem 0.94rem 0.94rem ;
+      .weui-btn {
+        margin: 0;
+      }
+      .font_7B_88 {
+        margin-top: 0.19rem;
+      }
+    }
+  }
+}
+// 一键接人
+.keyedPeople {
+  .keyedMe {
+    height: 15.88rem;
+    margin-right: 4.84rem;
+    margin-left: 4.84rem;
+    .keyedMe_head {
+      width: 3.38rem;
+      height: 3.38rem;
+      border-radius: 50%;
+      & > img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+    }
+    .keyedMe_text {
+      margin-bottom: 1rem;
+      padding-top: 0.63rem;
+    }
+  }
+  .keyedOthers {
+    height: 15.88rem;
+    margin-right: 4.84rem;
+    margin-left: 4.84rem;
+    border-bottom: 0.06rem solid rgba(123,147,167,0.18);
+    .keyedOthers_head {
+      & > i {
+        font-size: 3.38rem;
+        color: #848af7;
+      }
+    }
+    .keyedOthers_text {
+      padding-top: 0.63rem;
+      padding-bottom: 1rem;
+    }
+    .keyedOthers_content {
+      text-align: center;
+      .weui-icon-ai-more-and-more {
+        color: #fff;
+        background: #000;
+      }
+    }
+  }
+  .cancel_kP {
+    position: fixed;
+    z-index: 999;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3.5rem;
+    background: #f1f4f6;
+  }
+}
+.pickFriend {
+  .map-search-wrap {
+    .searchbar-result {
+      margin: 0;
+    }
+  }
+}
+// 服务网点
+.serviceOutlets {
+  .btn_submit {
+    padding: 1.88rem 0.94rem;
+  }
+}
+.outletOnlineStore {
+  .yo-scroll {
+    padding-bottom: 3.06rem;
+  }
+  .sel_shop_content {
+    padding: 0.63rem 0.63rem 0.94rem 0.94rem ;
+    .weui-btn {
+      margin: 0;
+    }
+    .font_7B_88 {
+      margin-top: 0.19rem;
+    }
+  }
+}
+// 流量查询
+.trafficQuery {
+  .trafficQuery_top {
+    /*height: 6.88rem;*/
+    background-image: linear-gradient(-225deg, #9185FF 0%, #6392FF 100%);
+    .trafficQuery_top_icon {
+      font-size: 2.5rem;
+      width: 4.38rem;
+      height: 4.38rem;
+      margin: 1.25rem 2.06rem 1.25rem 1.8rem;
+      color: #9185FF;
+      border-radius: 50%;
+      background: #ffffff;;
+    }
+    @media screen and (max-width: 370px) {
+      .trafficQuery_top_icon {
+        margin: 1.25rem 1.16rem 1.25rem 1.8rem;
+      }
+    }
+    .copy {
+      border-bottom: 0.06rem solid #ffffff;
+    }
+  }
+  .trafficQuery_center {
+    padding: 1.63rem 0.94rem;
+    background: #f1f4f6;
+    .use_detail {
+      padding: 1.06rem 0 1.5rem 0rem;
+    }
+    .circular_code {
+      position: relative;
+      margin-right: 0.37rem;
+      .available_flow {
+        position: absolute;
+        top: 2.55rem;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        .big {
+          font-size: 1.25rem;
+          line-height: 2.25rem;
+        }
+        .small {
+          font-size: 0.63rem;
+          line-height: 0.94rem;
+        }
+      }
+    }
+  }
+  .trafficQuery_contain {
+    .y_cell {
+      height: 3.13rem;
+      padding-right: 1.3rem;
+      [class*="weui-icon-ai-"] {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  .trafficQuery_foot {
+    padding: 1.88rem 1.3rem;
+    line-height: 1.35rem;
+  }
+}

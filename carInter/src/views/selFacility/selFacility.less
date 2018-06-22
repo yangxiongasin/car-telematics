@@ -1,0 +1,53 @@
+.selectFacility {
+  padding: 0 1.13rem 0 1.06rem;
+  .fac_title {
+    padding: 2.63rem 0 2.5rem 0;
+  }
+  .facilityType {
+    .facilityType_details {
+      margin-right: 1.23rem;
+    }
+    .typeImg {
+      width: 6.25rem;
+      height: 6.25rem;
+      border: 1px solid #d9d9d9;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .typeName {
+      margin-bottom: 1.25rem;
+      padding-top: 1rem;
+    }
+  }
+  .facilityType :nth-child(3n) {
+    margin-right: 0;
+  }
+  .fac_foot {
+    position: relative;
+    width: 100%;
+    padding-top: 2.5rem;
+    .fac_foot_code {
+      width: 3.13rem;
+      height: 3.13rem;
+      margin-bottom: 0.88rem;
+      border-radius: 50%;
+      background-image: linear-gradient(-225deg, #9185ff 0%, #6392ff 100%);
+      & > i {
+        font-size: 1.54rem;
+        color: #fff;
+      }
+    }
+    .fac_foot_content {
+      width: 8.75rem;
+      text-align: center;
+    }
+    .fac_foot_help {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      color: #6392ff;
+    }
+  }
+}

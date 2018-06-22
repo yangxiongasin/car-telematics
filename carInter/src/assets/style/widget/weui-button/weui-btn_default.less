@@ -1,0 +1,14 @@
+@import "../../base/fn.less";
+
+.weui-btn_default {
+    color: #7B93A7;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, .1) !important;
+    &:not(.weui-btn_disabled):visited {
+        color: @weuiBtnDefaultFontColor;
+    }
+    &:not(.weui-btn_disabled):active {
+        color: @weuiBtnDefaultActiveFontColor;
+        background-color: @weuiBtnDefaultActiveBg;
+    }
+}

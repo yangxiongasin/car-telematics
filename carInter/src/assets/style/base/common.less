@@ -1,0 +1,482 @@
+@import "fn.less";
+
+html {
+  font-family: 'Heiti SC', 'Microsoft YaHei';
+  font-size: 16px;
+  outline: 0;
+  -webkit-text-size-adjust: none;
+}
+
+a{
+  display: block;
+}
+
+.child-view,body {
+  background-color: #fff;
+}
+
+@media only screen and (min-width:320px){html{font-size: 18px !important}
+}
+@media only screen and (min-width:414px){html{font-size: 22.08px !important}
+}
+@media only screen and (min-width:480px){html{font-size:25.6px !important}
+}
+@media only screen and (min-width:569px){html{font-size: 30.3467px !important}
+}
+@media only screen and (min-width:641px){html{font-size: 34.1867px !important}
+}
+html{font-size: calc(2 * 100vw / 46.9) !important} //如果在低版本安卓下失效将使用上面的媒体查询
+
+.weui-check:checked + .weui-icon-checked:before {
+  content: '\EA06';
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#9185FF), to(#6392FF));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.weui-btn_default {
+  color: #000000;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.border_all{
+  border: 1px solid rgba(123,147,167,0.30);
+  border-radius: 0.25rem;
+}
+
+.border_bm_18{
+  border-bottom: 0.06rem solid rgba(123,147,167,0.18);
+}
+.border_top_18{
+  border-top: 0.06rem solid rgba(123,147,167,0.18);
+}
+
+.font_7B_88{
+  font-size: 0.88rem;
+  color: #7B93A7;
+  line-height: 1.25rem;
+}
+
+.font_7B_88_156{
+  font-size: 0.88rem;
+  color: #7B93A7;
+  line-height: 1.56rem;
+}
+
+.font_7B_175{
+  font-size: 1rem;
+  color: #7B93A7;
+  line-height: 1.75rem;
+}
+
+.font_2D_88{
+  font-size: 0.88rem;
+  color: #2D3E53;
+  line-height: 1.25rem;
+}
+
+.font_2D_88_156{
+  font-size: 0.88rem;
+  color: #2D3E53;
+  line-height: 1.56rem;
+}
+
+.font_2D_106_156{
+  font-size: 1.06rem;
+  color: #2D3E53;
+  line-height: 1.56rem;
+}
+
+.font_7B_1{
+  font-size: 1rem;
+  color: #7B93A7;
+  line-height: 1.13rem;
+}
+
+.font_7B_113{
+  font-size: 1.13rem;
+  color: #7B93A7;
+  line-height: 1.13rem;
+}
+
+.font_7B_75{
+  font-size: 0.75rem;
+  color: #7B93A7;
+  line-height: 1.13rem;
+}
+
+.font_2D{
+  color: #2D3E53;
+  font-size: 1.13rem;
+  line-height: 1.13rem;
+}
+
+.font_2D_1{
+  color: #2D3E53;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font_7B_15{
+  color: #7B93A7;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font_FF_75{
+    font-size: 0.75rem;
+    color: #FF5961;
+  line-height: 1.13rem;
+}
+
+.font_7B_75_175{
+  font-size: 0.75rem;
+  color: #7B93A7;
+  line-height: 1.5rem;
+}
+
+.font_7B_85_175{
+  font-size: 0.85rem;
+  color: #7B93A7;
+  line-height: 1.5rem;
+}
+
+.font_FFF_63{
+  font-size: 0.63rem;
+  color: #FFF;
+  line-height: 1.1rem;
+}
+.font_FFF_175{
+  font-size: 0.75rem;
+  color: #FFFFFF;
+  line-height: 1.75rem;
+}
+
+.font_FFF_88_175{
+  font-size: 0.88rem;
+  color: #FFFFFF;
+  line-height: 1.75rem;
+}
+
+.color_fff{
+  color: #ffffff
+}
+
+.color_918{
+  color: #9185FF;
+}
+
+.color_758ef7{
+  color: #758ef7;
+}
+
+.color_918_639{
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#9185FF), to(#6392FF));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.pd_lf_0{
+  padding-left: 0;
+}
+
+.pd_rt_0{
+  padding-right: 0;
+}
+
+.pd_top_5{
+  padding-top: 0.5rem;
+}
+
+.pd_top_88{
+  padding-top: 0.88rem;
+}
+
+.pd_top_0{
+  padding-top: 0;
+}
+
+.pd_bm_0{
+  padding-bottom: 0;
+}
+.pd_bm_5{
+  padding-bottom: 0.5rem;
+}
+
+.mr_lf_0{
+  margin-left: 0;
+}
+
+.mr_rt_0{
+  margin-right: 0;
+}
+
+.mr_top_0{
+  margin-top: 0!important;
+}
+
+.mr_top_5{
+  margin-top: 0.5rem!important;
+}
+
+.mr_top_10{
+  margin-top: 1rem;
+}
+
+.mr_top_125{
+  margin-top: 1.25rem;
+}
+
+.mr_bm_0{
+  margin-bottom: 0!important;
+}
+
+.mr_bm_5{
+  margin-bottom: 0.5rem!important;
+}
+
+.mr_bm_125{
+  margin-bottom: 1.25rem;
+}
+
+.text_cen{
+  text-align: center;
+}
+
+.text_left{
+  text-align: left;
+}
+
+.img_100{
+  &>img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.y_wp_content{
+  padding: 0rem 1.94rem 0.81rem 1.31rem;
+  .wp_con_start{
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 0.56rem;
+    background-image: linear-gradient(-225deg, #9185FF 0%, #6392FF 100%);
+    border-radius: 50%;
+    color: white;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .over_hidden{
+    overflow: hidden;
+    padding-right: 0.56rem;
+  }
+  .line-7d{
+    margin-left: 0.5rem;
+    //margin-top: 0.2rem;
+    height: 100%;
+    border-left: 0.06rem solid #7d8fff;
+  }
+  .line{
+    //border-left: 0.06rem solid #7d8fff;
+    height: 1.31rem;
+    //margin-left: 0.47rem;
+  }
+}
+
+.noEqui{
+  padding: 1.88rem 0;
+}
+
+.operation{
+  position: absolute;
+  top: 2.56rem;
+  right: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#9185FF), to(#6392FF));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+img[lazy=loading] {
+  width: 100%!important;
+  height: 100%;
+  margin: auto;
+  background-color: #ddd;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+img[lazy=loaded] {
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+img[lazy-progressive=true] {
+  width: 100%!important;
+  margin: auto;
+}
+
+img[lazy=error] {
+  border-radius: 2px;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
+.y_label{
+  background: rgba(123,147,167,0.10);
+  height: 1.88rem;
+  padding-left: 0.94rem;
+  padding-right: 0.94rem;
+}
+.y_input{
+  background: #ffffff;
+  height: 3.13rem;
+  padding-left: 0.94rem;
+  position: relative;
+  .y_model_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  input{
+    width: 16rem;
+  }
+  input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    font-size: 0.88rem;
+    color: rgba(123,147,167,0.70);
+  }
+  .star{
+    display: block;
+    height: 1.25rem;
+    padding-right: 0.63rem;
+    color: rgba(123,147,167,0.70);
+  }
+  .provinces{
+    padding-right: 0.63rem;
+  }
+  .icon{
+    font-size: 1.25rem;
+    margin-right: 0.63rem;
+  }
+  .border-bottom{
+
+  }
+}
+
+.y_search_btn{
+  margin: 1.25rem 0.94rem;
+  font-size: 1.13rem;
+  [class*=weui-icon]{
+    color: #ffffff;
+    font-size: 1.13rem;
+  }
+}
+
+.y_IMEI{
+  .IMEI_title{
+    line-height: 1.13rem;
+    padding: 0 0.86rem 1.2rem 0.86rem;
+  }
+  .IMEI_img{
+    width:13.14rem;
+    height:5.59rem;
+    border:0.06rem solid rgba(151,151,151,0.15);
+    .weui-icon-ai-chinamobile{
+      font-size: 4.13rem;
+      color: #000;
+    }
+    .IMEI_type{
+      color: #000;
+      line-height: 0.88rem;
+      text-align: start;
+      .weui-icon-ai-bar-code{
+        font-size: 3.2rem;
+      }
+    }
+  }
+}
+
+.y_cell {
+  height: 4.75rem;
+  padding-left: 0.94rem;
+  padding-right: 0.44rem;
+  .head_img {
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 50%;
+    background: rgba(255, 95, 95, 0.10);
+    margin-right: 0.63rem;
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50px;
+    }
+  }
+  .message{
+    .first_name{
+      font-size: 1.06rem;
+      color: #2D3E53;
+      line-height: 1.56rem;
+    }
+    .second_name{
+      font-size: 0.88rem;
+      color: #7B93A7;
+      line-height: 1.25rem;
+    }
+  }
+  .status {
+    & > [class*=weui-icon] {
+      font-size: 1.75rem;
+      color: #c7c7cc;
+      margin-left: 0.63rem;
+    }
+  }
+}
+
+.y_warning{
+  height: 2.5rem;
+  background: #FFEFEF;
+  border-top: 1px solid rgba(255,95,95,0.20);
+  border-bottom: 1px solid rgba(255,95,95,0.20);
+  padding-left: 1rem;
+  .weui-icon-error{
+    font-size: 1.25rem;
+    margin-right: 0.63rem;
+  }
+}
+
+.disabled_ipt{
+  background: rgba(123, 147, 167, 0.05);
+}
+
+.del_foot{
+  position: fixed;
+  bottom: 0;
+  width: 23.44rem ;
+  height: 3.5rem ;
+  background: #ffffff;
+  z-index: 999;
+}
+
+@keyframes bounce-up {
+ 25% {transform: translateY(10px);}
+ 50%, 100% {transform: translateY(0);}
+ 75% {transform: translateY(-10px);}
+}
+
+.w-full {
+  width: 100% !important;
+}
