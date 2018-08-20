@@ -77,12 +77,6 @@
       prev () {
         this.doAnimate('prev')
       },
-      before () {
-        this.$emit('before', this.index)
-      },
-      end () {
-        this.$emit('end', this.index)
-      },
       translate (element, offset, speed, callback) {
         if (speed) {
           this.animating = true

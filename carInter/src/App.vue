@@ -33,7 +33,7 @@ export default {
     this.$store.dispatch('getBindEquList')
     // 获取用户信息
     this.$store.dispatch('getUserInfo')
-    //    sessionStorage.setItem('currentIllegallyStatus', JSON.stringify([]))
+    // sessionStorage.setItem('currentIllegallyStatus', JSON.stringify([]))
   },
   computed: {
     isIos () {
