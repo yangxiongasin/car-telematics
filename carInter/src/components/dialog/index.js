@@ -5,11 +5,12 @@
  * Created by summer on 2017/10/12.
  */
 import Vue from 'vue'
-import {camelcaseToHyphen} from '@/utils/assist.js'
 import MDialog from './dialog.vue'
 
 let dialogInstance = null
-
+function camelcaseToHyphen (str) {
+  return str.replace(/([a-z])([A-Z])/g, '$1-$2').toLowerCase()
+}
 MDialog.newInstance = properties => {
   const _props = properties || {}
   let props = ''
